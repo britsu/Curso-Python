@@ -19,6 +19,6 @@ texto  =      'Luis gato'
 # negativos: -[987654321] (O sinal - deve ser incluso antes de todos os índices negativos)
 
 # Exibindo apenas um caractere (negativo):
-print(texto[-3])
+print("Exibindo apenas um caractere: ", texto[-3])
 # Exibindo todo o texto sem o último caractere:
-print(texto[:0])
+print("Todo o texto sem o último caractere: ", texto[:-1])
